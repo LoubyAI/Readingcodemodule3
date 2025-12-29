@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 5</title>
+</head>
+<body>
+    <h1 id="greeting"></h1>
+
+    <!- -
+    Now comes the first thing we have never seen before, namely TypeScript.
+
+    First, try to read it and guess what it does, write a comment about what you think it will do
+
+    Next use Google, ChatGPT and/or Claude to find out what it does.
+    Write in another comment about what it actually does and see if it is far from what you thought it did 
+    
+   <!--= When I push "go live" a white page opens that say's "Hello world!" in the top left corner, 
+   so it seems it has a purpose to give a message. -->
+    <!-- GOOGLES ANSWER= It searches on the html document the id="" that seems to be on the 
+     <h1 id="greetings"> and has been put inside the javascript code document.getelementbyid("greetings") 
+    and changed it to Hello, world! that has been inserted in the javascript code .innerHTML = "Hello, world!"; -->
+    <script>
+        document.getElementById("greeting").innerHTML = "Hello, world!";
+    </script>
+</body>
+</html>
